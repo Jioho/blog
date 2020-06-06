@@ -14,7 +14,7 @@ module.exports = {
   title: '前端知识点汇总',
   description: '前端知识点汇总',
   head: [
-    ['link', { rel: 'icon', href: '/public/favicon.ico' }],
+    ['link', { rel: 'icon', href: './public/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }]
   ],
   markdown: {
