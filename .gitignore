@@ -1,0 +1,6 @@
+/*.zip
+.idea
+.settings
+.vscode
+node_modules
+yarn-error.log

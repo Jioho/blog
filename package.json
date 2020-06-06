@@ -1,0 +1,28 @@
+{
+  "name": "front-end-knowledge",
+  "version": "1.0.0",
+  "description": "前端知识点汇总，前端面试题",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/Jioho/Front-end-Knowledge.git"
+  },
+  "keywords": [
+    "前端",
+    "面试"
+  ],
+  "author": "Jioho",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.5.0",
+    "vuepress-plugin-autobar": "github:boboidream/vuepress-bar"
+  },
+  "resolutions": {
+    "watchpack": "1.6.1"
+  }
+}
