@@ -9,7 +9,7 @@ const autobar_options = {
 
 module.exports = {
   dest: './dist', // 打包路径
-  base: '/Front-end-Knowledge/', // 打包的基准
+  base: '/front-end-knowledge/', // 打包的基准
   plugins: ['autobar', autobar_options], // 自动生成侧边栏
   title: '前端知识点汇总',
   description: '前端知识点汇总',
