@@ -1,6 +1,6 @@
 const autobar_options = {
   stripNumbers: true,
-  maxLevel: 2,
+  maxLevel: 3,
   skipEmptySidebar: true,
   skipEmptyNavbar: true,
   multipleSideBar: true,
@@ -11,12 +11,9 @@ module.exports = {
   dest: './dist', // 打包路径
   base: '/front-end-knowledge/', // 打包的基准
   plugins: ['autobar', autobar_options], // 自动生成侧边栏
-  title: '前端知识点汇总',
-  description: '前端知识点汇总',
-  head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['link', { rel: 'manifest', href: '/manifest.json' }]
-  ],
+  title: 'knowledge',
+  description: "Let's learn together",
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   markdown: {
     lineNumbers: true
   },
@@ -24,20 +21,28 @@ module.exports = {
     sidebar: 'auto', // 自动生成侧边栏
     displayAllHeaders: true, // 显示所有页面的标题链接
     nav: [
-      { text: '主页', link: '/' },
+      { text: 'Home', link: '/' },
       {
-        text: 'vue组件',
-        link: '/01.vue组件列表/'
-        // item: [
-        //   { text: 'Chinese', link: '/language/chinese/' },
-        //   { text: 'Japanese', link: '/language/japanese/' }
-        // ]
+        text: 'JavaScript',
+        link: '/02.JavaScript/01.基础'
       },
       {
-        text: '开发规范',
-        link: '/02.开发规范'
-      }
-      // { text: 'Github', link: 'https://www.github.com/codeteenager' },
+        text: 'CSS',
+        link: '/03.CSS/01.基础'
+      },
+      {
+        text: 'HTML',
+        link: '/04.HTML/01.基础'
+      },
+      {
+        text: 'Vue',
+        link: '/05.Vue/01.基础'
+      },
+      {
+        text: '小程序',
+        link: '/06.小程序/01.基础'
+      },
+      { text: 'Gitee', link: 'https://gitee.com/Jioho' }
     ],
     sidebarDepth: 1,
     lastUpdated: 'Last Updated'
