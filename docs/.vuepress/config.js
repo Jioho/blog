@@ -15,7 +15,7 @@ module.exports = {
   description: "Let's learn together",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   markdown: {
-    lineNumbers: true
+    lineNumbers: false
   },
   themeConfig: {
     sidebar: 'auto', // 自动生成侧边栏
@@ -42,7 +42,7 @@ module.exports = {
         text: '小程序',
         link: '/06.小程序/01.基础'
       },
-      { text: 'Gitee', link: 'https://gitee.com/Jioho' }
+      { text: 'Gitee', link: 'https://gitee.com/Jioho/front-end-knowledge' }
     ],
     sidebarDepth: 1,
     lastUpdated: 'Last Updated'
