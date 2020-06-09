@@ -22,26 +22,7 @@ module.exports = {
     displayAllHeaders: true, // 显示所有页面的标题链接
     nav: [
       { text: 'Home', link: '/' },
-      {
-        text: 'JavaScript',
-        link: '/02.JavaScript/01.基础'
-      },
-      {
-        text: 'CSS',
-        link: '/03.CSS/01.基础'
-      },
-      {
-        text: 'HTML',
-        link: '/04.HTML/01.基础'
-      },
-      {
-        text: 'Vue',
-        link: '/05.Vue/01.基础'
-      },
-      {
-        text: '小程序',
-        link: '/06.小程序/01.基础'
-      },
+      { text: 'CDNS', link: 'https://blog.csdn.net/Jioho_chen' },
       { text: 'Gitee', link: 'https://gitee.com/Jioho/front-end-knowledge' }
     ],
     sidebarDepth: 1,
