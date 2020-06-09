@@ -10,7 +10,7 @@ const autobar_options = {
 module.exports = {
   dest: './dist', // 打包路径
   base: '/front-end-knowledge/', // 打包的基准
-  plugins: ['autobar', autobar_options], // 自动生成侧边栏
+  plugins: ['autobar', autobar_options, '@vuepress/back-to-top'], // 自动生成侧边栏
   title: 'knowledge',
   description: "Let's learn together",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
