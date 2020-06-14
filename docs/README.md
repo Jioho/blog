@@ -2,7 +2,7 @@
 home: true
 heroImage: https://gitee.com/Jioho/img/raw/master/knowledge/logo/20200606180101.png
 actionText: 一起学习 →
-actionLink: /02.JavaScript/01.基础/01.原型和原型链.html/
+actionLink: /02.JavaScript/01.基础/原型和原型链.html/
 # features:
 #   - title: 简洁至上
 #     details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。

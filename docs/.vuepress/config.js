@@ -15,7 +15,7 @@ module.exports = {
   description: "Let's learn together",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   markdown: {
-    lineNumbers: false,
+    lineNumbers: true,
     config: md => {
       md.use(require('markdown-it-task-lists'))
     }
