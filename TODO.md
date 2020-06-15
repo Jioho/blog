@@ -1,0 +1,2 @@
+- [ ] 继承相关文章 class  实现一个继承
+- [ ] 实现一个 call 或 apply 实现一个 Function.bind
