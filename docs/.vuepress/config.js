@@ -25,7 +25,7 @@ module.exports = {
     displayAllHeaders: false, // 显示所有页面的标题链接
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'CDNS', link: 'https://blog.csdn.net/Jioho_chen' },
+      { text: 'CSDN', link: 'https://blog.csdn.net/Jioho_chen' },
       { text: 'Gitee', link: 'https://gitee.com/Jioho/front-end-knowledge' }
     ],
     sidebarDepth: 100, // 侧边栏深度

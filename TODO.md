@@ -1,2 +1,2 @@
-- [ ] 继承相关文章 class  实现一个继承
+- [ ] 继承相关文章 class  实现一个继承 es6 class 完成80%
 - [ ] 实现一个 call 或 apply 实现一个 Function.bind
