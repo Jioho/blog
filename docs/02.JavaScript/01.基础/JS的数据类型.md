@@ -4,11 +4,11 @@ js 分为 `基础数据类型` 和 `引用数据类型`
 
 ## 8 种数据类型
 
-`undefined`、`Null`、`Boolean`、`Number`、`String`、`BigInt`、`Symbol`
+`undefined`,`Null`,`Boolean`,`Number`,`String`, `Symbol`
 
 ## 引用数据类型
 
-`Object`
+`Object`,`Array`,`Function`
 
 ## 区别:
 
@@ -21,10 +21,3 @@ js 分为 `基础数据类型` 和 `引用数据类型`
 
    - 基础数据类型：占据空间小、大小固定，属于被频繁使用数据，所以放入栈中存储
    - 引用数据类型： 占据空间大、大小不固定,如果存储在栈中，将会影响程序运行的性能；引用数据类型在栈中存储了指针，该指针指向堆中该实体的起始地址。当解释器寻找引用值时，会首先检索其索引
-
-## js 的基础数据类型
-
-`undefined`、`Null`、`Boolean`、`Number`、`String`、`Symbol`
-
-- 基本数据类型都是存储在 **栈内存** 中
-- 注意这些都是基础数据类型，而`不是对象`
