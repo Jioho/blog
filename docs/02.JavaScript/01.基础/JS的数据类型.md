@@ -2,7 +2,7 @@
 
 js 分为 `基础数据类型` 和 `引用数据类型`
 
-## 8 种数据类型
+## 6 种基本数据类型
 
 `undefined`,`Null`,`Boolean`,`Number`,`String`, `Symbol`
 
