@@ -1,4 +1,4 @@
-# 判断数据类型
+# 判断数据类型 typeof 和 instanceof
 
 判断方式：
 [[toc]]
