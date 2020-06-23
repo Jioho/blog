@@ -38,7 +38,7 @@ console.log('' instanceof String) //false
 console.log(1 instanceof Number) //false
 ```
 
-### 3. Object.prototype.toString
+## 3. Object.prototype.toString
 
 这是对象的一个原生原型扩展函数，用来精确的区分数据类型
 
