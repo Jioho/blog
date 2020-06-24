@@ -7,16 +7,16 @@ module.exports = {
     model: 'hijiki',
     display: {
       position: 'right', // 显示位置：left/right(default: 'right')
-      width: 180, // 模型的长度(default: 135)
-      height: 400, // 模型的高度(default: 300)
+      width: 135, // 模型的长度(default: 135)
+      height: 300, // 模型的高度(default: 300)
       hOffset: 0, //  水平偏移(default: 65)
-      vOffset: 80 //  垂直偏移(default: 0)
+      vOffset: 200 //  垂直偏移(default: 0)
     },
     mobile: {
       show: false // 是否在移动设备上显示(default: false)
     },
     react: {
-      opacity: 1 // 模型透明度(default: 0.8)
+      opacity: 0.8 // 模型透明度(default: 0.8)
     }
   }
 }
