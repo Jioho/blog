@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "test_build": "node ./build/addComponents.js && vuepress build docs && node ./build/delComponents.js"
+    "build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
