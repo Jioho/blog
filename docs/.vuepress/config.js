@@ -1,16 +1,16 @@
-const autobar_options = {
-  stripNumbers: true,
-  maxLevel: 2,
-  skipEmptySidebar: true,
-  skipEmptyNavbar: true,
-  multipleSideBar: false,
-  setHomepage: 'hide'
-}
+const autobarConfig = require('./config/autobarConfig')
+const live2dConfig = require('./config/live2dConfig')
+const myTalkConfig = require('./config/myTalkConfig')
 
 module.exports = {
   dest: './dist', // 打包路径
   base: '/front-end-knowledge/', // 打包的基准
-  plugins: [['autobar', autobar_options], '@vuepress/back-to-top'], // 自动生成侧边栏
+  plugins: [
+    ['autobar', autobarConfig],
+    '@vuepress/back-to-top',
+    ['vuepress-plugin-helper-live2d', live2dConfig],
+    ['vuepress-plugin-mygitalk', myTalkConfig]
+  ], // 自动生成侧边栏
   title: 'knowledge',
   description: "Let's learn together",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
