@@ -4,7 +4,6 @@ const fs = require('fs')
 function findMarkdown(dir, callback) {
   console.log(dir)
   fs.readdir(dir, function(err, files) {
-    console.log(err, '??')
     if (err) throw err
     files.forEach(fileName => {
       let innerDir = `${dir}/${fileName}`
