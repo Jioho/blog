@@ -18,10 +18,10 @@ export default {
       const commentConfig = {
         clientID: '49e2f73064ceca951e48',
         clientSecret: '7aded260c86a63355c5e34afddd3902057ef6c0b',
-        repo: '你的仓库名称',
-        owner: '你的用户名',
+        repo: 'front-end-knowledge',
+        owner: 'Jioho',
         // 这里接受一个数组，可以添加多个管理员，可以是你自己
-        admin: ['管理用户名'],
+        admin: ['Jioho'],
         // id 用于当前页面的唯一标识，一般来讲 pathname 足够了，
         // 但是如果你的 pathname 超过 50 个字符，GitHub 将不会成功创建 issue，此情况可以考虑给每个页面生成 hash 值的方法.
         id: location.pathname,
