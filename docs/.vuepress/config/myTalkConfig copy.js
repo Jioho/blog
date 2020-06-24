@@ -6,13 +6,13 @@ module.exports = {
   // Gitalk配置
   gitalk: {
     // GitHub Application Client ID.
-    clientID: '49e2f73064ceca951e48',
+    clientID: 'github的 clientID',
     // GitHub Application Client Secret.
-    clientSecret: '7aded260c86a63355c5e34afddd3902057ef6c0b',
+    clientSecret: 'github clientSecret',
     // GitHub repository. 存储评论的 repo
-    repo: 'front-end-knowledge',
+    repo: 'github仓库名称，只需要仓库名称',
     // GitHub repository 所有者，可以是个人或者组织。
-    owner: 'Jioho',
+    owner: '所有者，可以是个人或者组织',
     // 设置语言(default: zh-CN)
     language: 'zh-CN'
   }
