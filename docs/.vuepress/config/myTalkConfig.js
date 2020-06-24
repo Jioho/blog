@@ -10,7 +10,7 @@ module.exports = {
     // GitHub Application Client Secret.
     clientSecret: '7aded260c86a63355c5e34afddd3902057ef6c0b',
     // GitHub repository. 存储评论的 repo
-    repo: 'https://github.com/Jioho/front-end-knowledge',
+    repo: 'front-end-knowledge',
     // GitHub repository 所有者，可以是个人或者组织。
     owner: 'Jioho',
     // 设置语言(default: zh-CN)
