@@ -1,5 +1,9 @@
 const autobarConfig = require('./config/autobarConfig')
 const live2dConfig = require('./config/live2dConfig')
+/**
+ * config 涉及github帐号信息，文件改为 myTalkConfig copy.js
+ * 复制一份，改为myTalkConfig.js，修改对应配置即可
+ */
 const myTalkConfig = require('./config/myTalkConfig')
 
 module.exports = {
@@ -9,8 +13,9 @@ module.exports = {
     ['autobar', autobarConfig],
     '@vuepress/back-to-top',
     ['vuepress-plugin-helper-live2d', live2dConfig],
-    ['vuepress-plugin-mygitalk', myTalkConfig]
-  ], // 自动生成侧边栏
+    ['vuepress-plugin-mygitalk', myTalkConfig],
+    'vuepress-plugin-zooming'
+  ],
   title: 'knowledge',
   description: "Let's learn together",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
