@@ -44,7 +44,7 @@ Vue 在更新 DOM 时是异步执行的。只要侦听到数据变化，Vue 将�
 
 原理在`Promise.then、MutationObserver 和 setImmediate。` 或者 `setTimeout(fn, 0)`
 
-关于 `setTimeout(fn, 0)` 或者其他异步队列不太了解的可以回顾下： [JS 事件循环机制(event loop)之宏任务/微任务](../../02.JavaScript/02.进阶/JS事件循环机制宏任务微任务.html)
+关于 `setTimeout(fn, 0)` 或者其他异步队列不太了解的可以回顾下： [JS 事件循环机制(event loop)之宏任务/微任务](../02.JavaScript/JS事件循环机制宏任务微任务.html)
 
 由于浏览器的事件循环机制和宏任务，微任务的机制，可以让 setTimeOut 之类的宏任务在一个函数中最后才开始执行 **（意思就是能把我们同一个函数中的 JS 代码都执行完，更新事件才开始）**
 
@@ -132,4 +132,4 @@ Vue 在更新 DOM 时是异步执行的。只要侦听到数据变化，Vue 将�
 
 - `$nextTick()` 并不是针对视图/值更新才触发，就像上面的代码，a 和 b 在点击按钮的时候并没有修改值，这时候`dom 节点也不会更新`。可是 nextTick 还是回调了，说明只要数据有被 set 到，`不管是否修改，只要被 set`，nextTick 就会被触发
 
-`$nextTick` 涉及到了很多`事件循环`，`宏任务`,`微任务`的概念，不熟的还是要多看 JS 进阶 [JS 事件循环机制(event loop)之宏任务/微任务](../../02.JavaScript/02.进阶/JS事件循环机制宏任务微任务.html)
+`$nextTick` 涉及到了很多`事件循环`，`宏任务`,`微任务`的概念，不熟的还是要多看 JS 进阶 [JS 事件循环机制(event loop)之宏任务/微任务](../02.JavaScript/JS事件循环机制宏任务微任务.html)
