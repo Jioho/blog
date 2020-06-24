@@ -25,7 +25,8 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'CSDN', link: 'https://blog.csdn.net/Jioho_chen' },
-      { text: 'Gitee', link: 'https://gitee.com/Jioho/front-end-knowledge' }
+      { text: 'Gitee', link: 'https://gitee.com/Jioho/front-end-knowledge' },
+      { text: 'Github', link: 'https://github.com/Jioho/front-end-knowledge' }
     ],
     sidebarDepth: 100, // 侧边栏深度
     lastUpdated: 'Last Updated'
