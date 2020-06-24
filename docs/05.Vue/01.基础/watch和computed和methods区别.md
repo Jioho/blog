@@ -1,4 +1,4 @@
-# watch 和 computed 区别.md
+# watch 、 computed 、methods 区别.md
 
 ## 1. watch
 
@@ -156,6 +156,12 @@ export default {
 }
 ```
 
+## 3. methods
+
+methods 是当前页面方法的集合。当然也可以用作于函数的计算，和`computed` 类似，计算后返回对应的结果(`return`)。
+
+和 `computed` 不同的是，methods 计算结果并不会缓存。而且如果依赖的值更新了。methods 也不会重新计算，除非对应的的节点重新渲染，才会重新调用 methods
+
 ## 总结
 
 ### watch 和 computed 的区别：
@@ -164,15 +170,18 @@ export default {
 
   - `watch`：必须是已有的`data`中的属性。或者`computed` 定义的属性
   - `computed`：必须是 data 中没有的，也不能和 `methods` 的属性重名
+  - `methods` 和 computed 一样，名称不能是已有的，或者 computed 已经用了的名称。
 
 - 触发方式
 
   - `watch` ：监听的属性变化才会触发。或者使用**immediate**属性
-  - `computed` ：在有需要用到的时候调用就会触发
+  - `computed` ：在有需要用到的时候调用就会触发。属性变化也会重新计算
+  - `methods` ： 有需要用到才会触发，属性变化了也不会重新计算
 
 - 适用场景
   - `watch` ： 监听某个值变化，作出响应，或者在 watch 中可以使用`异步函数`，在触发响应
   - `computed` ：适用于需要监听多个值计算得出的计算结果的场景，计算后结果会被缓存，不可以使用异步函数。使用异步函数将不能及时响应。
+  - `watch`：更适用于一次性数据，不管依赖数据怎么变化，都不用重新计算那种，不过methods更适用于事件绑定，并非计算属性
 
 ### 相同点
 

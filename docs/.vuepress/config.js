@@ -14,12 +14,6 @@ module.exports = {
   title: 'knowledge',
   description: "Let's learn together",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
-  markdown: {
-    lineNumbers: true,
-    config: md => {
-      md.use(require('markdown-it-task-lists'))
-    }
-  },
   themeConfig: {
     sidebar: 'auto', // 自动生成侧边栏
     displayAllHeaders: false, // 显示所有页面的标题链接
