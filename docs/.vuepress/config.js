@@ -10,11 +10,12 @@ module.exports = {
   dest: './dist', // 打包路径
   base: '/front-end-knowledge/', // 打包的基准
   plugins: [
-    ['autobar', autobarConfig],
+    'rpurl',
     '@vuepress/back-to-top',
+    'vuepress-plugin-zooming',
+    ['autobar', autobarConfig],
     ['vuepress-plugin-helper-live2d', live2dConfig],
-    ['vuepress-plugin-mygitalk', myTalkConfig],
-    'vuepress-plugin-zooming'
+    ['vuepress-plugin-mygitalk', myTalkConfig]
   ],
   title: 'knowledge',
   description: "Let's learn together",

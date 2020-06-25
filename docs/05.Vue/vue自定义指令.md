@@ -2,6 +2,8 @@
 
 先回顾 vue 的指令有哪些：[vue 中有哪些指令作用是什么](./vue中有哪些指令作用是什么.html)
 
+官方文档：[自定义指令](https://cn.vuejs.org/v2/guide/custom-directive.html)
+
 ## 自定义指令基本语法
 
 参考 vue 的示例，写一个自动聚焦的指令
@@ -70,3 +72,5 @@ export default {
   - `modifiers`：一个包含修饰符的对象。例如：v-my-directive.foo.bar 中，修饰符对象为 { foo: true, bar: true }。
 - `vnode`：Vue 编译生成的虚拟节点。移步 VNode API 来了解更多详情。
 - `oldVnode`：上一个虚拟节点，仅在 update 和 componentUpdated 钩子中可用。
+
+<!-- TODO 指令部分完善 照抄文档/看源码 -->

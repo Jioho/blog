@@ -1,4 +1,4 @@
-# watch 、 computed 、methods 区别.md
+# watch 、 computed 、methods 区别
 
 ## 1. watch
 

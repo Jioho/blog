@@ -27,7 +27,7 @@
 
 ## 要理解这个问题，得从原型说起
 
-不熟看这里 👉 [原型和原型链-基础,但是非常重要](../02.JavaScript/原型和原型链.html)
+不熟看这里 👉 [原型和原型链-基础,但是非常重要](/JavaScript/原型和原型链.html)
 
 ### 3 个栗子 理解后在看源码
 
@@ -73,7 +73,7 @@ dog.data === cat.data // false
 
 **稍微解释下**：为什么第二行:`this.data = this.data()`
 
-> 我们在执行 new 的过程中，Animal 其实充当了`constructor`。详情可以看 [new 一个对象发生了什么](../02.JavaScript/new一个对象的时候发生了什么.html)。这时候 `this.data` 还是一个函数，还没执行的函数，所以调用一下 this.data()。让函数返回一个值。然后重新赋值给 `this.data`
+> 我们在执行 new 的过程中，Animal 其实充当了`constructor`。详情可以看 [new 一个对象发生了什么](/JavaScript/new一个对象的时候发生了什么.html)。这时候 `this.data` 还是一个函数，还没执行的函数，所以调用一下 this.data()。让函数返回一个值。然后重新赋值给 `this.data`
 
 ::: tip 结论 2
 用了 function 后，data 都被锁定在当前 function 的作用域中，然后被返回出去，**相当于创建了另外一个对象，所以多个实例之间不会相互影响**
