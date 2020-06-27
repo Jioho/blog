@@ -6,6 +6,7 @@
 - [JS 事件循环机制宏任务微任务](/JavaScript/JS事件循环机制宏任务微任务.html)
 - [闭包](/JavaScript/闭包.html)
 - [JS 继承的几种方式](/JavaScript/继承的几种方式.html)
+- [什么是 IIFE 它的用途是什么](/JavaScript/什么是IIFE它的用途是什么.html)
 
 > css 最近更新/入门
 

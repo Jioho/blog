@@ -6,17 +6,21 @@ const live2dConfig = require('./config/live2dConfig')
  */
 const myTalkConfig = require('./config/myTalkConfig')
 
+const plugins = [
+  'rpurl',
+  '@vuepress/back-to-top',
+  'vuepress-plugin-zooming',
+  ['autobar', autobarConfig],
+  ['vuepress-plugin-helper-live2d', live2dConfig]
+]
+if (process.env.NODE_ENV !== 'development') {
+  plugins.push(['vuepress-plugin-mygitalk', myTalkConfig])
+}
+
 module.exports = {
   dest: './dist', // 打包路径
   base: '/front-end-knowledge/', // 打包的基准
-  plugins: [
-    'rpurl',
-    '@vuepress/back-to-top',
-    'vuepress-plugin-zooming',
-    ['autobar', autobarConfig],
-    ['vuepress-plugin-helper-live2d', live2dConfig],
-    ['vuepress-plugin-mygitalk', myTalkConfig]
-  ],
+  plugins: plugins,
   markdown: {
     lineNumbers: true
   },
