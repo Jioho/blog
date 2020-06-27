@@ -17,6 +17,9 @@ module.exports = {
     ['vuepress-plugin-helper-live2d', live2dConfig],
     ['vuepress-plugin-mygitalk', myTalkConfig]
   ],
+  markdown: {
+    lineNumbers: true
+  },
   title: 'knowledge',
   description: "Let's learn together",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
