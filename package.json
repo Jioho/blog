@@ -23,6 +23,7 @@
     "@vuepress/plugin-back-to-top": "^1.5.0",
     "vuepress": "^1.5.0",
     "vuepress-plugin-autobar": "github:boboidream/vuepress-bar",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-rpurl": "github:boboidream/vuepress-plugin-rpurl",
     "vuepress-plugin-zooming": "^1.1.7"
   },
@@ -30,6 +31,7 @@
     "watchpack": "1.6.1"
   },
   "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-helper-live2d": "^1.0.2",
     "vuepress-plugin-mygitalk": "^1.0.5"
   }
