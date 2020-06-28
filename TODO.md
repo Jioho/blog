@@ -1,5 +1,5 @@
 - [ ] 普通的 function 返回一个 null。this 指向谁？
-- [ ] 实现一个 call 或 apply 实现一个 Function.bind
 - [ ] `Iterator`是什么，有什么作用？
 - [ ] `Generator` 函数是什么，有什么作用？
-- [ ] Vue set 原理
+- [ ] 前端设计模式
+- [ ] 闭包和内存泄漏

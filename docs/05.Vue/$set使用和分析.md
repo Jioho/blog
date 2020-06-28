@@ -120,8 +120,6 @@ function isPrimitive(value) {
 
 ![](https://gitee.com/Jioho/img/raw/master/knowledge/20200628161129.png)
 
-<!-- ![](https://gitee.com/Jioho/img/raw/master/knowledge/20200628154000.png) -->
-
 ### 添加监听 `defineReactive$$1` 方法
 
 - 1021 行 初始化 `new Dep` [查看 dep 的分析](#dep-分析) 看 dep 分析还是很有必要的。这涉及后面许多的流程
@@ -175,6 +173,10 @@ dep 代码不是很长。dep 就相当于是一个订阅中心
 - 既然调用了 `defineReactive$$1` 。那这里就形成了一个递归，递归的头部，就是当属性，不再是对象的时候，就停止调用 `defineReactive$$1`。
 - 看到这里之后，下一步应该回到 [添加监听 defineReactive\$\$1 方法](#添加监听-definereactive-1-方法) 的 第 1035 行
 
+![](https://gitee.com/Jioho/img/raw/master/knowledge/20200628164723.png)
+
+![](https://gitee.com/Jioho/img/raw/master/knowledge/20200628180231.png)
+
 ```js {9}
 /**
  * Walk through all properties and convert them into
@@ -188,10 +190,6 @@ Observer.prototype.walk = function walk(obj) {
   }
 }
 ```
-
-![](https://gitee.com/Jioho/img/raw/master/knowledge/20200628164723.png)
-
-![](https://gitee.com/Jioho/img/raw/master/knowledge/20200628180231.png)
 
 ## 总结
 
