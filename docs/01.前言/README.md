@@ -41,6 +41,7 @@
   - 链接美化 [vuepress-plugin-rpurl](https://github.com/boboidream/vuepress-plugin-rpurl)
   - SEO 优化 - 自动向百度站点推送 [vuepress-plugin-baidu-autopush](https://github.com/IOriens/vuepress-plugin-baidu-autopush)
   - 代码复制 [vuepress-plugin-code-copy](https://github.com/znicholasbrown/vuepress-plugin-code-copy)
+  - 主题 [vuepress-theme-reco](https://vuepress-theme-reco.recoluan.com/)
 
 * 好记性不如烂笔头，总不能学了又忘，于是最终下定决定每天抽出时间完善这份笔记
 

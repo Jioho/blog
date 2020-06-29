@@ -7,7 +7,8 @@ module.exports = {
   },
   title: 'knowledge',
   description: "Let's learn together",
-  head: require('./configs/head/index'), // 添加百度统计等插件
+  head: require('./configs/head/index'), // 根据环境添加百度统计等插件
+  theme: 'reco',
   themeConfig: {
     sidebar: 'auto', // 自动生成侧边栏
     displayAllHeaders: false, // 显示所有页面的标题链接
